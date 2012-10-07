@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;padding:0;
+    background-color: #d6d8e0;
+    background-image: url(images/BgGradient.jpg); background-repeat: repeat-x;
+}
+h1{
+    color:#082f6c; font-size:26px; font-weight:bold;
+}
+div#header {
+    background-image: url(images/sports_header.jpg);
+    width:878px; height:60px;
+    margin:auto;
+    margin-top:10px;
+    padding: 10px; background-color: #ffffff;
+    border-style:solid; border-color:#abadb3;
+    border-width:2px;
+    font-size:36px; font-weight:bold; color:#ffffff;
+}
+div#main {
+    width:878px;
+    margin:auto;
+    margin-top:0px;
+    padding: 10px; background-color: #ffffff;
+    border-style:solid; border-color:#abadb3;
+    border-width:2px;
+}
+div#footer {
+    width:878px; height:50px;
+    margin:auto;
+    padding: 0 10px 10px 10px;
+    background-color: #0e51b7;
+    border-style:solid; border-color:#abadb3;
+    border-width:1px 2px 2px 2px;
+    color:#acc7f4;
+}
+.newsDate{
+   color: gray;
+   font-size:12px;
+}
+.newsDescription{
+    border:solid 1px #dddddd; padding:8px; margin:4px 0 20px 0;
+    background-color: #eeeeee;
+    color:#444444;
+}
+.newsDescription p{
+    margin:0; padding:0;
+}
+.navBar {
+    margin:auto;
+    width:898px; height:20px;
+    border-style:solid; border-color:#abadb3;
+    border-width:2px;
+    text-align:center;
+}
+.navBar ul {
+    margin:0px; padding:0px;
+}
+.navBar li {
+    width:178px; height:20px;
+    text-align: center;
+    display: block;
+    border-left:2px solid #abadb3;
+    padding:0; margin:0;
+    color:#ffffff; font-weight:bold; text-decoration:none;
+    white-space:nowrap;
+    float: left;
+}
+.navBar li.first {
+    border-left:0;
+}
+.navBar li ul {
+    display: none;
+    font-size: .8em;
+}
+li:hover ul {
+    display: block; position:relative; left:-2px;
+}
+li:hover ul li {
+    display: block; border-style: solid; border-color: #abadb3; border-width: 1px 2px 1px 2px;
+}
+a.Nav, a.Nav:visited {
+    display:block; height:20px; color: #ffffff; font-weight:bold; text-decoration:none; white-space:nowrap; padding:0; background-color:#0e51b7;
+}
+a.Nav:hover{
+    background-color:#acc7f4; color: #0e51b7;
+}
+img{
+    margin-right: 20px; border:solid 3px #cccccc; padding:2px;
+}
